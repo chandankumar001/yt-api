@@ -20,7 +20,7 @@ app = FastAPI()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOR_PROXY = "socks5://127.0.0.1:9050"
+TOR_PROXY = "socks5://yt-ehc17od84-chandankumars-projects-69f89b93.vercel.app/:9050"
 TOR_CONTROL_PORT = 9051
 
 def renew_tor_ip():
