@@ -13,7 +13,6 @@ from aiohttp_socks import ProxyConnector
 
 from stem import Signal
 from stem.control import Controller
-from playwright.async_api import async_playwright
 
 app = FastAPI()
 
